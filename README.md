@@ -25,5 +25,5 @@ in total:
 Our code split into our method pipeline:
 
 1. We first processed the data - creating the explenation by using API call to chatGPT 4o mini using this file `filename`.
-2. Then we took those explenation from step 1, and encoded it to vectors using couple of embeding models using this file `file for embeding`.
-3. Finaly, We used the embeding and did research and clustering done here `analysis_and_clustering` and used it to extract the results.
+2. Then we took those explenation from step 1, and encoded it to vectors using couple of embeding models using this file `transformer_based_vector_creation.py`.
+3. Finaly, We used the embeding and did research and clustering done here `analysis_and_clustering.ipynb` and used it to extract the results.
