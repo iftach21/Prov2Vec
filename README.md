@@ -1,7 +1,27 @@
 # Prov2Vec
 Our code used for our paper on Prov2Vec under NLP class.
 
-As part of this class we explored a new method for language translation for proverbs to other langueges, as well as inner langueges classification.
+## Abstract
+Understanding the semantic relationships be-
+tween proverbs across and within languages
+provides insights into cultural and linguistic
+connections. This paper introduces a novel ap-
+proach, Prov2Vec, where we generate vector
+embeddings for proverbs using GPT-4 Mini
+explanations combined with few Token embed-
+dings models. These embeddings are evalu-
+ated for semantic similarity using cosine sim-
+ilarity. Our work builds upon previous ef-
+forts in Hebrew-English translation of idioms
+but shifts focus to embedding-based analysis
+of proverbs, uncovering deeper connections
+within and across languages. The dataset com-
+prises 5000 English proverbs, 1800 Hebrew
+proverbs, and 100 proverbs in Chinese, Ara-
+bic, and French. We highlight the methodology,
+showcase examples, and discuss the implica-
+tions of our findings in computational linguis-
+tics and cultural studies.
 
 ## Data set
 Our dataset is available in this link:
@@ -24,6 +44,6 @@ in total:
 
 Our code split into our method pipeline:
 
-1. We first processed the data - creating the explenation by using API call to chatGPT 4o mini using this file `filename`.
+1. We first processed the data - creating the explenation by using API call to chatGPT 4o mini using this file `sentence_explanations_chatgpt.ipynb`.
 2. Then we took those explenation from step 1, and encoded it to vectors using couple of embeding models using this file `transformer_based_vector_creation.py`.
 3. Finaly, We used the embeding and did research and clustering done here `analysis_and_clustering.ipynb` and used it to extract the results.
