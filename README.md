@@ -4,26 +4,17 @@ Our code used for our paper on Prov2Vec under NLP class.
 To view our paper, you're welcome to read the following file: `Converting_Hebrew_Proverbs_and_Idioms_from_Hebrew_to_English.pdf` in this repo.
 
 ## Abstract
-Understanding the semantic relationships be-
-tween proverbs across and within languages
+Understanding the semantic relationships between proverbs across and within languages
 provides insights into cultural and linguistic
-connections. This paper introduces a novel ap-
-proach, Prov2Vec, where we generate vector
+connections. This paper introduces a novel approach, Prov2Vec, where we generate vector
 embeddings for proverbs using GPT-4 Mini
-explanations combined with few Token embed-
-dings models. These embeddings are evalu-
-ated for semantic similarity using cosine sim-
-ilarity. Our work builds upon previous ef-
-forts in Hebrew-English translation of idioms
+explanations combined with few Token embeddings models. These embeddings are evaluated for semantic similarity using cosine similarity.
+Our work builds upon previous efforts in Hebrew-English translation of idioms
 but shifts focus to embedding-based analysis
 of proverbs, uncovering deeper connections
-within and across languages. The dataset com-
-prises 5000 English proverbs, 1800 Hebrew
-proverbs, and 100 proverbs in Chinese, Ara-
-bic, and French. We highlight the methodology,
-showcase examples, and discuss the implica-
-tions of our findings in computational linguis-
-tics and cultural studies.
+within and across languages. The dataset comprises 5000 English proverbs, 1800 Hebrew
+proverbs, and 100 proverbs in Chinese, Arabic, and French. We highlight the methodology,
+showcase examples, and discuss the implications of our findings in computational linguistics and cultural studies.
 
 ## Data set
 Our dataset is available in this link:
