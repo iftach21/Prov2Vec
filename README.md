@@ -1,6 +1,8 @@
 # Prov2Vec
 Our code used for our paper on Prov2Vec under NLP class.
 
+To view our paper, you're welcome to read the following file: `Converting_Hebrew_Proverbs_and_Idioms_from_Hebrew_to_English.pdf` in this repo.
+
 ## Abstract
 Understanding the semantic relationships be-
 tween proverbs across and within languages
